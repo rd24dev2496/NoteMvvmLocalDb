@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/seagren"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_marginStart="10dp"
+
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textAutoComplete"
+        tools:text ="Rishabh"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_delete_forever_24"
+        android:text="@string/button"
+        android:textColor="@color/black" />
+
+</LinearLayout>
